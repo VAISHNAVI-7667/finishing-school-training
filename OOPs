@@ -1,0 +1,8 @@
+
+/*
+    Association - relationships (one to one, one to many, many to one, many to many)
+    Aggregation - type of association (with or without the object a class can exist...)->loosely bound 
+    Composition - (both must exist)->strongly bound Eg : HoD and dept
+    
+    Relationships : is a -> inheritance, has a -> when instance of one class is used in another class...
+*/
