@@ -38,3 +38,8 @@ public class Main
 	    p.sayhello();
 	}
 }
+
+
+// Downcasting is not allowed... like Child c = new Parent()
+
+
