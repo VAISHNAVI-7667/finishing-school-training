@@ -6,3 +6,35 @@
     
     Relationships : is a -> inheritance, has a -> when instance of one class is used in another class...
 */
+_________________________________________________________________________________________________________________________________________
+Upcasting
+---------
+class Parent{
+    int age = 40;
+    public void sayhi()
+    {
+        System.out.println("Hi from parent");
+    }
+    public void sayhello()
+    {
+        System.out.println("Hello from parent");
+    }
+}
+class Child extends Parent{
+    public void sayhello()
+    {
+         System.out.println("Hello from child");
+    }
+    public void saybye()
+    {
+         System.out.println("Bye from child");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    Parent p = (Parent)new Child(); // Upcasting
+	    p.sayhi();
+	    p.sayhello();
+	}
+}
